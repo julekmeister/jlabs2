@@ -3,6 +3,23 @@ import java.util.List;
 
 public class Main {
 
+    public static int[] metoda1(int x){
+        int tab[]=new int[x];
+        int j=40;
+        for (int i=0;i<x;++i)
+        {
+            tab[i]=j-i;
+
+        }
+        return tab;
+    }
+    public static int metoda2(int[] tab){
+
+
+            int [] tab1 = new int [1];
+
+    } return tab1;
+
     public static void main(String[] args) {
         /* ćwiczenie 5 Metody */
 
@@ -12,6 +29,13 @@ public class Main {
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
+
+        //a
+
+
+
+
+
 
         /* zad.2
         a) stworzyc tablicę typu String[6],
