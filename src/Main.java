@@ -9,6 +9,35 @@ public class Main {
         b) w drugiej pętli continue
         c) w trzeciej pętli return
         */
+        int i;
+        //a
+        for ( i =0;i<10;i++)
+        {
+            if (i%2==5)
+                break;
+        }
+        System.out.println(i+"\n");
+
+        //b
+        for ( i =0;i<10;i++)
+        {
+            if (i%2==0)
+                continue;
+            System.out.println(i);
+
+        }
+        System.out.println("\n");
+
+
+        //c
+        for ( i =0;i<10;i++)
+        {
+            if (i==3)
+                return;
+            System.out.println(i);
+
+        }
+        System.out.println(i);
 
 
     }
