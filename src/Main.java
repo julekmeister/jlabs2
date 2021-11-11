@@ -62,6 +62,9 @@ public static void Metoda1(List<String> lista){
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
 
+        Set<Integer> ser = new ArrayList<>();
+
+
     }
 
 }
