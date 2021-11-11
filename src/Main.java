@@ -1,6 +1,7 @@
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.*;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 
 public class Main {
@@ -62,7 +63,18 @@ public static void Metoda1(List<String> lista){
                  a następnie przeiterować i wyświetlić forEach-em (jak wyżej)
          */
 
-        Set<Integer> ser = new ArrayList<>();
+        Set<Integer> ser = new TreeSet<>();
+
+        for (int i =0;i<10;i++)
+        {
+            System.out.println("Podaj element:");
+            ser.add(scan.nextInt());
+        }
+
+        System.out.println("Set: "+ser);
+        System.out.println("Wielkość seta: "+ser.size()+"\n");
+        ser.forEach(System.out::println);
+
 
 
     }
