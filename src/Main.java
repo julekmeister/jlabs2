@@ -2,8 +2,14 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.*;
 
-public class Main {
 
+public class Main {
+public static void Metoda1(String list){
+    for (String i:list<String>
+         ) {
+
+    }
+}
     public static void main(String[] args) {
 
         /* ćw_6 Listy */
@@ -18,6 +24,24 @@ public class Main {
                 d) następnie proszę wykonać odwrotne sortowanie i znów użyć metody z punktu b) do wyświetlenia
                 elementów listy
           */
+
+        List<String> lista = new ArrayList<>(5);
+        Scanner scan = new Scanner(System.in);
+        int len;
+
+        while (true){
+        System.out.println("Podaj zwierzę: ");
+        lista.add(scan.nextLine());
+        len=lista.size();
+        System.out.println("Liczba zwierząt: "+len);
+        System.out.println("Czy dodać kolejne zwierzę?\ty/n");
+        if (Objects.equals(scan.nextLine(), "n")){
+            if (len<5) {
+                System.out.println("Za mało zwierząt!");
+            }
+            else break;
+            }
+        }
 
 
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
